@@ -1953,7 +1953,10 @@ body {
 }
 
 .housing__img {
-  width: 33.333%;
+object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  max-width: 100%;
 }
 
 .avatar {
