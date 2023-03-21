@@ -2961,6 +2961,11 @@ body {
             align-items: center;
   }
 
+  .cuisine__p1,
+  .cuisine__p2 {
+    text-align: center;
+  }
+
   .cuisine__text {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -3027,7 +3032,7 @@ body {
   }
 
   .housing__img {
-    width: 100%;
+    width: 90%;
   }
 
   .programm__gallery-row {
