@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
 @font-face {
+  font-family: gothampro_bold;
+  font-display: swap;
+  src: url("../fonts/gothampro_bold.woff2") format("woff2"), url("../fonts/gothampro_bold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: gothampro;
   font-display: swap;
   src: url("../fonts/gothampro.woff2") format("woff2"), url("../fonts/gothampro.woff") format("woff");
@@ -17,25 +25,17 @@
 }
 
 @font-face {
+  font-family: Colusregular;
+  font-display: swap;
+  src: url("../fonts/Colusregular.woff2") format("woff2"), url("../fonts/Colusregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: gothampro_medium;
   font-display: swap;
   src: url("../fonts/gothampro_medium.woff2") format("woff2"), url("../fonts/gothampro_medium.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: gothampro_bold;
-  font-display: swap;
-  src: url("../fonts/gothampro_bold.woff2") format("woff2"), url("../fonts/gothampro_bold.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: ofont;
-  font-display: swap;
-  src: url("../fonts/ofont.woff2") format("woff2"), url("../fonts/ofont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -718,6 +718,11 @@ h6 {
   opacity: 0.7;
 }
 
+.footer__phone-icon {
+  width: 44px;
+  height: 44px;
+}
+
 .footer__gmail {
   -webkit-box-shadow: 0 0 36px 4px rgba(49, 49, 49, 0.2);
           box-shadow: 0 0 36px 4px rgba(49, 49, 49, 0.2);
@@ -766,6 +771,10 @@ h6 {
   line-height: normal;
 }
 
+.housing picture {
+  width: 33.333%;
+}
+
 .wrapper {
   overflow: hidden;
   min-height: 100%;
@@ -777,7 +786,7 @@ body {
 
 .title {
   color: #3f9e59;
-  font-family: Colus;
+  font-family: Colusregular;
   font-size: 50px;
   font-weight: 400;
   font-style: normal;
@@ -874,11 +883,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.webp.main-screen__bg {
+  background: url("../img/main/bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-screen {
@@ -970,7 +985,7 @@ body {
 
 .caption__title {
   color: #1e5a2f;
-  font-family: Colus;
+  font-family: Colusregular;
   font-size: 70px;
   font-weight: 400;
   font-style: normal;
@@ -980,7 +995,7 @@ body {
 }
 
 .caption__aboute {
-  font-family: gothampro_medium;
+  font-family: gothampro;
   color: #24363d;
   font-size: 24px;
   font-weight: 400;
@@ -2621,6 +2636,17 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions__plus {
+  display: none;
+}
+
+.questions__minus {
+  display: block;
 }
 
 .questions__answer-wrapper {
@@ -3019,22 +3045,6 @@ body {
     padding-bottom: 60px;
   }
 
-  .housing__text {
-    padding: 40px;
-  }
-
-  .housing__gallery {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
-  .housing__img {
-    width: 90%;
-  }
-
   .programm__gallery-row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -3058,6 +3068,22 @@ body {
   .title-mask {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .housing picture {
+    width: 100%;
+  }
+
+  .housing__text {
+    padding: 40px;
+  }
+
+  .housing__gallery {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -3385,7 +3411,7 @@ body {
 
 @media (max-width: 415px) {
   .title {
-    font-size: 20px;
+    font-size: 26px;
   }
 
   .main__shell {
