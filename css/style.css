@@ -2892,6 +2892,10 @@ body {
             justify-content: center;
   }
 
+  .our-paradise .housing picture {
+    width: 100%;
+  }
+
   .programm {
     padding-top: 300px;
   }
@@ -3150,10 +3154,6 @@ body {
   .title-mask {
     font-size: 16px;
     line-height: 20px;
-  }
-
-  .housing picture {
-    width: 100%;
   }
 }
 
