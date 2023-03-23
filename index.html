@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230322133345">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230322133345" />
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js?_v=20230322133345"></script>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230323171304">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230323171304" />
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js?_v=20230323171304"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tenerife</title>
 </head>
@@ -36,11 +36,11 @@
                         <p>Канары-это в Испании.</p>
                         <p>Тенерифе-жемчужина Атлантики</p>
                     </div>
-                    <h1 class="caption__title">Ваши 9 дней Вкусного Путешествие</h1>
+                    <h1 class="caption__title">Ваши 9 дней Вкусного Путешествия</h1>
                     <p class="caption__aboute">Эксклюзивная программа в авторском туре</p>
                     <button class="caption__button button open-popup">Получить программу путешествия</button>
                     <div class="main__shell">
-                        <picture><source srcset="img/main/4.webp" type="image/webp"><img src="img/main/4.png"></picture>
+                        <picture><source srcset="img/main/4.webp" type="image/webp"><img src="img/main/4.png" alt="shell"></picture>
                     </div>
                 </div>
                 <div class="main-screen__bg ibg"></div>
@@ -92,28 +92,25 @@
                     </div>
                 </section>
                 <section class="form-popup__bg">
-<form action="#" id="formPopup" class="form-popup">
-<picture><source srcset="img/form-popup/x_hover.webp" type="image/webp"><img src="img/form-popup/x_hover.png" class="close-popup"></picture>
-    <h2 class="form-popup__title title">
-        Свяжитесь с нами
-    </h2>
-    <input class="form-popup__input input _reqPopupForm" type="text" placeholder="Ваше имя *" >
-    <input class="form-popup__input input _reqPopupForm" type="text" placeholder="Ваш телефон *">
-    <input class="form-popup__input input _emailPopupForm _reqPopupForm" type="text" placeholder="Ваш  E-mail *">
-    <p class="form-popup__notice notice">
-        Нажимая на кнопку, вы даете согласие на
-        обработку персональных данных и соглашаетесь
-        c политикой конфиденциальности
-    </p>
-    <button class="form-popup__button button" type="submit">
-        Получить программу путешествия
-    </button>
-</form>
+    <form action="#" id="formPopup" class="form-popup">
+        <picture><source srcset="img/form-popup/x_hover.webp" type="image/webp"><img src="img/form-popup/x_hover.png" class="close-popup" alt="X"></picture>
+        <h2 class="form-popup__title title">Свяжитесь с нами </h2>
+        <input name="name" class="form-popup__input input _popupFormReq" type="text" placeholder="Ваше имя *">
+        <input name="phone" class="form-popup__input input _popupFormReq" type="text" placeholder="Ваш телефон *">
+        <input name="email" class="form-popup__input input _email _popupFormReq" type="text" placeholder="Ваш  E-mail *">
+        <p class="form-popup__notice notice">
+            Нажимая на кнопку, вы даете согласие на
+            обработку персональных данных и соглашаетесь
+            c политикой конфиденциальности
+        </p>
+        <button class="form-popup__button button" type="submit">
+            Получить программу путешествия
+        </button>
+    </form>
 </section>
-
                 <section class="popup">
     <div class="popup__content">
-        <picture><source srcset="img/form-popup/x_hover.webp" type="image/webp"><img src="img/form-popup/x_hover.png" class="popup__x"></picture>
+        <picture><source srcset="img/form-popup/x_hover.webp" type="image/webp"><img src="img/form-popup/x_hover.png"  alt="X" class="popup__x"></picture>
         <h2 class="title">Спасибо за заявку</h2>
         <p class="p-bold popup__p">Мы свяжемся с Вами, как только
         обработаем Ваш запрос</p>
@@ -237,7 +234,8 @@
                             </div>
                             <div class="programm__text">
                                 <h2 class=" title ">
-                                    А еще к нам за интересным общением в компании единомышленников</h2>
+                                    А еще к нам за интересным общением в компании <span
+                                        style="word-break: break-word;">единомышленников</span></h2>
                                 <p class="p-normal">Просто бронируйте путешествие, а друзей организуем мы</p>
                                 <button type="button" class="button open-popup programm__button">Получить программу
                                     путешествия</button>
@@ -377,25 +375,6 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <!-- <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><picture><source srcset="img/tour/1-round.webp" type="image/webp"><img src="img/tour/1-round.png" alt="tenerife"></picture></div>
-                    <div class="swiper-slide"><picture><source srcset="img/tour/2-round.webp" type="image/webp"><img src="img/tour/2-round.png" alt="tenerife"></picture></div>
-                    <div class="swiper-slide"><picture><source srcset="img/tour/3-round.webp" type="image/webp"><img src="img/tour/3-round.png" alt="tenerife"></picture></div>
-                    <div class="swiper-slide"><picture><source srcset="img/tour/4-round.webp" type="image/webp"><img src="img/tour/4-round.png" alt="tenerife"></picture></div>
-                    <div class="swiper-slide"><picture><source srcset="img/tour/5-round.webp" type="image/webp"><img src="img/tour/5-round.png" alt="tenerife"></picture></div>
-                    <div class="swiper-slide"><picture><source srcset="img/tour/6-round.webp" type="image/webp"><img src="img/tour/6-round.png" alt="tenerife"></picture></div>
-                    <div class="swiper-slide"><picture><source srcset="img/tour/7-round.webp" type="image/webp"><img src="img/tour/7-round.png" alt="tenerife"></picture></div>
-                    <div class="swiper-slide"><picture><source srcset="img/tour/8-round.webp" type="image/webp"><img src="img/tour/8-round.png" alt="tenerife"></picture></div>
-                    <div class="swiper-slide"><picture><source srcset="img/tour/7-round.webp" type="image/webp"><img src="img/tour/7-round.png" alt="tenerife"></picture></div>
-                    <div class="swiper-slide"><picture><source srcset="img/tour/8-round.webp" type="image/webp"><img src="img/tour/8-round.png" alt="tenerife"></picture></div>
-                       <div class="swiper-slide"><picture><source srcset="img/tour/8-round.webp" type="image/webp"><img src="img/tour/8-round.png" alt="tenerife"></picture></div>
-  </div>
-<div class="swiper-button-next"></div>
-<div class="swiper-button-prev"></div>
-            </div> -->
                     <div class="wrapper__slider">
                         <div class="slider">
                             <div class="slider__item">
@@ -438,7 +417,7 @@
                     </div>
                     <div class="cuisine__content">
                         <div class="cuisine__image">
-                            <img src="img/cuisine/img .png">
+                            <img src="img/cuisine/img .png" alt="cuisine">
                         </div>
                         <div class="cuisine__text">
                             <h2 class="cuisine__title title"> Что же такое <br>канарская кухня?</h2>
@@ -463,7 +442,7 @@
                 </section>
                 <section class="housing">
                     <div class="housing__bg">
-                        <picture><source srcset="img/housing/housing-bg.webp" type="image/webp"><img src="img/housing/housing-bg.png"></picture>
+                        <picture><source srcset="img/housing/housing-bg.webp" type="image/webp"><img src="img/housing/housing-bg.png" alt="housing"></picture>
                     </div>
                     <h2 class="housing__title title">Где вы будете жить</h2>
                     <div class="housing__wrapper-text">
@@ -478,14 +457,14 @@
                         </div>
                     </div>
                     <div class="housing__gallery">
-                        <picture><source srcset="img/housing/housing1.webp" type="image/webp"><img class="housing__img" src="img/housing/housing1.png"></picture>
-                        <picture><source srcset="img/housing/housing2.webp" type="image/webp"><img class="housing__img" src="img/housing/housing2.png"></picture>
-                        <picture><source srcset="img/housing/housing3.webp" type="image/webp"><img class="housing__img" src="img/housing/housing3.png"></picture>
+                        <picture><source srcset="img/housing/housing1.webp" type="image/webp"><img class="housing__img" src="img/housing/housing1.png" alt="housing"></picture>
+                        <picture><source srcset="img/housing/housing2.webp" type="image/webp"><img class="housing__img" src="img/housing/housing2.png" alt="housing"></picture>
+                        <picture><source srcset="img/housing/housing3.webp" type="image/webp"><img class="housing__img" src="img/housing/housing3.png" alt="housing"></picture>
                     </div>
                 </section>
                 <section class="reviews">
                     <div class="reviews__bg-line">
-                        <picture><source srcset="img/reviews/line.webp" type="image/webp"><img src="img/reviews/line.png"></picture>
+                        <picture><source srcset="img/reviews/line.webp" type="image/webp"><img src="img/reviews/line.png" alt="line"></picture>
                     </div>
                     <div class="reviews__bg">
                         <div class="reviews__content">
@@ -502,7 +481,7 @@
                                         Знаю и люблю его. С удовольствием поделюсь с вами этой любовью.
                                     </p>
                                 </div>
-                                <div class="reviews__row">
+                                <div class="reviews__row reviews__dekstop">
                                     <div class="reviews__column">
                                         <p class="p-normal reviews__column-p">Больше отзывов можно посмотреть на сайте
                                             <a>tripster.ru</a>
@@ -524,8 +503,8 @@
                                 <div class="reviews__wrwpper-img2">
                                     <picture><source srcset="img/reviews/green.webp" type="image/webp"><img class="reviews__img2" src="img/reviews/green.png" alt="green"></picture>
                                 </div>
-                                <div class="reviews__item">
-                                    <picture><source srcset="img/reviews/avatar.webp" type="image/webp"><img class="reviews__avatar" src="img/reviews/avatar.png" alt="avatar"></picture>
+                                <div class="reviews__item mobile">
+                                    <picture><source srcset="img/reviews/avatar.webp" type="image/webp"><img class="reviews__avatar avatar" src="img/reviews/avatar.png" alt="avatar"></picture>
                                     <div class="reviews__slider-text">
                                         <div class="reviews__slider-title">
                                             <p class="p-bold">Сергей</p>
@@ -635,10 +614,27 @@
                                     </div>
                                 </div>
                                 <div class="reviews__arrow-left prev">
-                                    <img class="reviews__icon-left-g" src="img/reviews/ar-left.svg">
+                                    <img class="reviews__icon-left-g" src="img/reviews/ar-left.svg" alt="left">
                                 </div>
                                 <div class="reviews__arrow-right next">
-                                    <img class="reviews__icon-right-g" src="img/reviews/ar-right.svg">
+                                    <img class="reviews__icon-right-g" src="img/reviews/ar-right.svg" alt="right">
+                                </div>
+                            </div>
+                            <div class="reviews__row">
+                                <div class="reviews__column">
+                                    <p class="p-normal reviews__column-p">Больше отзывов можно посмотреть на сайте
+                                        <a>tripster.ru</a>
+                                    </p>
+                                </div>
+                                <div class="reviews__column">
+                                    <p class="p-normal reviews__column-p">Здесь на моем личном сайте
+                                        <a>tenden.es</a>
+                                    </p>
+                                </div>
+                                <div class="reviews__column">
+                                    <p class="p-normal reviews__column-p">Пишу зарисовки про Остров на Instagram:
+                                        <a>anikeevdl</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -652,7 +648,8 @@
                                 <div class="price__column">
                                     <div>
                                         <div class="price__column-header">
-                                            <picture><source srcset="img/price/header-column3.webp" type="image/webp"><img class="price__header-bg" src="img/price/header-column3.png" /></picture>
+                                            <img class="price__header-bg" src="img/price/header-column3.png"
+                                                alt="price" />
                                             <div class="price__header-text first-block">
                                                 <p class="price__p1 p-bold">“Всё включено”</p>
                                                 <p class="price__p2">€2100 <span>/ человека</span></p>
@@ -661,25 +658,25 @@
                                     </div>
                                     <div class="price__list p-normal">
                                         <div class="price__item">
-                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" /></picture>
+                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" alt="star" /></picture>
                                             <p>2-х местное размещение в отеле (5-10 мин от океана)</p>
                                         </div>
                                         <div class="price__item">
-                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" /></picture>Трансфер из/в
+                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" alt="star" /></picture>Трансфер из/в
                                             аэропорт
                                         </div>
                                         <div class="price__item">
-                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" /></picture>Завтраки
+                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" alt="star" /></picture>Завтраки
                                         </div>
                                         <div class="price__item">
-                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" /></picture>Обед или ужин с
+                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" alt="star" /></picture>Обед или ужин с
                                             традиционной местной кухней
                                         </div>
                                     </div>
                                 </div>
                                 <div class="price__column">
                                     <div class="price__column-header">
-                                        <picture><source srcset="img/price/header-column1.webp" type="image/webp"><img class="price__header-bg" src="img/price/header-column1.png" /></picture>
+                                        <picture><source srcset="img/price/header-column1.webp" type="image/webp"><img class="price__header-bg" src="img/price/header-column1.png" alt="price" /></picture>
                                         <div class="price__header-text second-block">
                                             <p class="price__p1 p-bold">“Стандарт”</p>
                                             <p class="price__p2">€1900 <span>/ человека</span></p>
@@ -687,7 +684,7 @@
                                     </div>
                                     <div class="price__list p-normal">
                                         <div class="price__item">
-                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" /></picture>2-х местное
+                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" alt="star" /></picture>2-х местное
                                             размещение в отеле (15-20 мин от океана)
                                         </div>
                                         <div class="price__item last">
@@ -698,7 +695,7 @@
                                 </div>
                                 <div class="price__column">
                                     <div class="price__column-header">
-                                        <picture><source srcset="img/price/header-column2.webp" type="image/webp"><img class="price__header-bg" src="img/price/header-column2.png" /></picture>
+                                        <picture><source srcset="img/price/header-column2.webp" type="image/webp"><img class="price__header-bg" src="img/price/header-column2.png" alt="price" /></picture>
                                         <div class="price__header-text third-block">
                                             <p class="price__p1 p-bold">“Эконом”</p>
                                             <p class="price__p2">€1600 <span>/ человека</span></p>
@@ -706,7 +703,7 @@
                                     </div>
                                     <div class="price__list p-normal">
                                         <div class="price__item">
-                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" /></picture>2-3-х местное
+                                            <picture><source srcset="img/price/star.webp" type="image/webp"><img class="" src="img/price/star.png" alt="star" /></picture>2-3-х местное
                                             размещение в апартаменте без завтраков
                                         </div>
                                         <div class="price__item last">
@@ -758,8 +755,8 @@
                                     Документы. Шенген. Что необходимо для путешествия в Испанию?
                                 </p>
                                 <div class="questions__circle">
-                                        <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
-                                        <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                                    <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
+                                    <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
                                 </div>
                             </div>
                             <div class="questions__answer-wrapper">
@@ -803,10 +800,10 @@
                                 <p class="questions__title p-bold">
                                     Деньги. Карточки. Документы. Права.
                                 </p>
-                            <div class="questions__circle">
-                                <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
-                                <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
-                            </div>
+                                <div class="questions__circle">
+                                    <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
+                                    <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                                </div>
                             </div>
                             <div class="questions__answer-wrapper">
                                 <div class="questions__line"></div>
@@ -819,168 +816,179 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="questions__column visually-hidden">
-                            <div class="questions__question">
-                                <p class="questions__title p-bold">
-                                    Вещи в дорогу. Что нужно взять обязательно, без чего можно обойтись, а что можно
-                                    купить на месте?
-                                </p>
-                                <div class="questions__circle">
-                                    <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
-                                    <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                        <div class="visually-hidden questions__hidden-block">
+                            <div class="questions__column ">
+                                <div class="questions__question">
+                                    <p class="questions__title p-bold">
+                                        Вещи в дорогу. Что нужно взять обязательно, без чего можно обойтись, а что можно
+                                        купить на месте?
+                                    </p>
+                                    <div class="questions__circle">
+                                        <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
+                                        <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                                    </div>
+                                </div>
+                                <div class="questions__answer-wrapper">
+                                    <div class="questions__line"></div>
+                                    <p class="questions__answer p-normal">
+                                        Обязательно взять с собой удобную обувь для прогулок по горам и теплые курточки,
+                                        поскольку вечером всегда прохладно,
+                                        особенно на севере Острова и в горах. Обязательно купальники, купаться можно
+                                        круглый
+                                        год. А вот такие мелочи как пляжные
+                                        полотенца, крем от загара, шляпы и прочие атрибуты пляжа вполне можно недорого
+                                        купить здесь, сэкономив место в чемодане.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="questions__answer-wrapper">
-                                <div class="questions__line"></div>
-                                <p class="questions__answer p-normal">
-                                    Обязательно взять с собой удобную обувь для прогулок по горам и теплые курточки,
-                                    поскольку вечером всегда прохладно,
-                                    особенно на севере Острова и в горах. Обязательно купальники, купаться можно круглый
-                                    год. А вот такие мелочи как пляжные
-                                    полотенца, крем от загара, шляпы и прочие атрибуты пляжа вполне можно недорого
-                                    купить здесь, сэкономив место в чемодане.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="questions__column visually-hidden">
-                            <div class="questions__question">
-                                <p class="questions__title p-bold">
-                                    Погода. Природа. Солнце. Какая температура воды, океана? Можно ли купаться зимой?
-                                </p>
-                            <div class="questions__circle">
-                                <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
-                                <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
-                            </div>
-                            </div>
-                            <div class="questions__answer-wrapper">
-                                <div class="questions__line"></div>
-                                <p class="questions__answer p-normal">
-                                    Погода на Острове очень сильно разнится и зависит от зоны, высотности, времени
-                                    суток, времени года. Весной на юге днем
-                                    примерно 20-25°, ночью 17-19°. На севере при этом может быть 13-15°, а в горах может
-                                    лежать снег. Поэтому на каждый
-                                    выезд обязательно брать с собой кофту, а лучше куртку. Вода в океане с ноября по
-                                    апрель 18-19°. С мая начинает по чуть
-                                    прогреваться до 20-21° в июне. Конечно, все туристы купаются и загорают, поскольку
-                                    солнце африканских широт греет весьма
-                                    ощутимо. Солнцезащитными кремами пользоваться обязательно!!! Самая теплая вода
-                                    бывает в сентябре-октябре 23-24°
-                                </p>
-                            </div>
-                        </div>
-                        <div class="questions__column visually-hidden">
-                            <div class="questions__question">
-                                <p class="questions__title p-bold">
-                                    Местная вода, магазины.
-                                </p>
-                            <div class="questions__circle">
-                                <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
-                                <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
-                            </div>
-                            </div>
-                            <div class="questions__answer-wrapper">
-                                <div class="questions__line"></div>
-                                <p class="questions__answer p-normal">
-                                    Самые популярные у туристов супермаркеты это Mercadona и Hiperdino. Их много по
-                                    Острову. Там можно купить свежую рыбу,
-                                    хамон, сыр и прочие вкусняшки. Кроме этого есть Lidl и Aldi.
-                                    Вода из под крана является условно питьевой. Отравиться не отравишься, но и пользы
-                                    никакой, поскольку это опресненная
-                                    морская вода. Поэтому для питья рекомендуется покупать бутилированную воду.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="questions__column visually-hidden">
-                            <div class="questions__question">
-                                <p class="questions__title p-bold">
-                                    Правила безопасности. Насколько безопасно на Острове?
-                                </p>
-                                <div class="questions__circle">
-                                    <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
-                                    <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                            <div class="questions__column ">
+                                <div class="questions__question">
+                                    <p class="questions__title p-bold">
+                                        Погода. Природа. Солнце. Какая температура воды, океана? Можно ли купаться
+                                        зимой?
+                                    </p>
+                                    <div class="questions__circle">
+                                        <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
+                                        <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                                    </div>
+                                </div>
+                                <div class="questions__answer-wrapper">
+                                    <div class="questions__line"></div>
+                                    <p class="questions__answer p-normal">
+                                        Погода на Острове очень сильно разнится и зависит от зоны, высотности, времени
+                                        суток, времени года. Весной на юге днем
+                                        примерно 20-25°, ночью 17-19°. На севере при этом может быть 13-15°, а в горах
+                                        может
+                                        лежать снег. Поэтому на каждый
+                                        выезд обязательно брать с собой кофту, а лучше куртку. Вода в океане с ноября по
+                                        апрель 18-19°. С мая начинает по чуть
+                                        прогреваться до 20-21° в июне. Конечно, все туристы купаются и загорают,
+                                        поскольку
+                                        солнце африканских широт греет весьма
+                                        ощутимо. Солнцезащитными кремами пользоваться обязательно!!! Самая теплая вода
+                                        бывает в сентябре-октябре 23-24°
+                                    </p>
                                 </div>
                             </div>
-                            <div class="questions__answer-wrapper">
-                                <div class="questions__line"></div>
-                                <p class="questions__answer p-normal">
-                                    Как и любом людном туристическом месте, главное правило - деньги, документы носить в
-                                    глубоких передних карманах, рюкзаки
-                                    и ценные вещи в машине не оставлять ну и просто следить внимательно за своими
-                                    вещами. В целом с точки зрения
-                                    преступности здесь абсолютно безопасно и спокойно. Можно везде гулять и поздно
-                                    ночью, люди доброжелательные и
-                                    приветливые, к туристам привыкшие, и помогут, и подскажут, и даже доведут при
-                                    необходимости до места.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="questions__column visually-hidden">
-                            <div class="questions__question">
-                                <p class="questions__title p-bold">
-                                    Питание. Достаточно ли будет еды? А что нужно будет докупить?
-                                </p>
-                                <div class="questions__circle">
-                                    <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
-                                    <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                            <div class="questions__column ">
+                                <div class="questions__question">
+                                    <p class="questions__title p-bold">
+                                        Местная вода, магазины.
+                                    </p>
+                                    <div class="questions__circle">
+                                        <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
+                                        <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                                    </div>
+                                </div>
+                                <div class="questions__answer-wrapper">
+                                    <div class="questions__line"></div>
+                                    <p class="questions__answer p-normal">
+                                        Самые популярные у туристов супермаркеты это Mercadona и Hiperdino. Их много по
+                                        Острову. Там можно купить свежую рыбу,
+                                        хамон, сыр и прочие вкусняшки. Кроме этого есть Lidl и Aldi.
+                                        Вода из под крана является условно питьевой. Отравиться не отравишься, но и
+                                        пользы
+                                        никакой, поскольку это опресненная
+                                        морская вода. Поэтому для питья рекомендуется покупать бутилированную воду.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="questions__answer-wrapper">
-                                <div class="questions__line"></div>
-                                <p class="questions__answer p-normal">
-                                    В стоимость тура включен завтрак и одна полноценная еда с вином в виде обеда или
-                                    ужина в зависимости от графика
-                                    экскурсий. Еда в ресторанах как правило очень обильная и из нашего опыта, наевшись
-                                    там, есть не захочется до следующего
-                                    дня) Тем более, что все, что недоедено, всегда отдают с собой para llevar (take
-                                    away). Ну а если захочется чего-то еще,
-                                    магазины к вашим услугам. Hiperdino, Lidl, Aldi работают без выходных, Mercadona
-                                    кроме воскресенья.
-                                </p>
+                            <div class="questions__column ">
+                                <div class="questions__question">
+                                    <p class="questions__title p-bold">
+                                        Правила безопасности. Насколько безопасно на Острове?
+                                    </p>
+                                    <div class="questions__circle">
+                                        <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
+                                        <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                                    </div>
+                                </div>
+                                <div class="questions__answer-wrapper">
+                                    <div class="questions__line"></div>
+                                    <p class="questions__answer p-normal">
+                                        Как и любом людном туристическом месте, главное правило - деньги, документы
+                                        носить в
+                                        глубоких передних карманах, рюкзаки
+                                        и ценные вещи в машине не оставлять ну и просто следить внимательно за своими
+                                        вещами. В целом с точки зрения
+                                        преступности здесь абсолютно безопасно и спокойно. Можно везде гулять и поздно
+                                        ночью, люди доброжелательные и
+                                        приветливые, к туристам привыкшие, и помогут, и подскажут, и даже доведут при
+                                        необходимости до места.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="questions__column ">
+                                <div class="questions__question">
+                                    <p class="questions__title p-bold">
+                                        Питание. Достаточно ли будет еды? А что нужно будет докупить?
+                                    </p>
+                                    <div class="questions__circle">
+                                        <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
+                                        <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                                    </div>
+                                </div>
+                                <div class="questions__answer-wrapper">
+                                    <div class="questions__line"></div>
+                                    <p class="questions__answer p-normal">
+                                        В стоимость тура включен завтрак и одна полноценная еда с вином в виде обеда или
+                                        ужина в зависимости от графика
+                                        экскурсий. Еда в ресторанах как правило очень обильная и из нашего опыта,
+                                        наевшись
+                                        там, есть не захочется до следующего
+                                        дня) Тем более, что все, что недоедено, всегда отдают с собой para llevar (take
+                                        away). Ну а если захочется чего-то еще,
+                                        магазины к вашим услугам. Hiperdino, Lidl, Aldi работают без выходных, Mercadona
+                                        кроме воскресенья.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="questions__column">
+                                <div class="questions__question">
+                                    <p class="questions__title p-bold">
+                                        Дополнительные развлечения. А что еще можно посмотреть на Острове?
+                                    </p>
+                                    <div class="questions__circle">
+                                        <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
+                                        <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                                    </div>
+                                </div>
+                                <div class="questions__answer-wrapper">
+                                    <div class="questions__line"></div>
+                                    <p class="questions__answer p-normal">
+                                        Программа вашего тура будет очень насыщенная, мы постарались учесть все интересы
+                                        предыдущих туристов и покажем вам все
+                                        самые культовые места Острова. В один же из немногочисленных свободных дней,
+                                        рекомендуем морскую прогулку. Искупаться в
+                                        прозрачной воде, увидеть китов и дельфинов! Незабываемые впечатления
+                                        гарантированы!
+                                        Кроме того для любителей шопинга в один из свободных вечеров рекомендуем
+                                        коммерческий центр Siam Mall с множеством
+                                        магазинов и кафешек.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="questions__column">
+                                <div class="questions__question">
+                                    <p class="questions__title p-bold">
+                                        Что привезти в качестве сувениров домой?
+                                    </p>
+                                    <div class="questions__circle">
+                                        <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
+                                        <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
+                                    </div>
+                                </div>
+                                <div class="questions__answer-wrapper">
+                                    <div class="questions__line"></div>
+                                    <p class="questions__answer p-normal">
+                                        Мы будем при желании заезжать в сувенирные лавочки, заслуживающие внимания,
+                                        порекомендуем хорошее вино, местный сыр ну и
+                                        конечно, хамон.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="questions__column visually-hidden">
-                            <div class="questions__question">
-                                <p class="questions__title p-bold">
-                                    Дополнительные развлечения. А что еще можно посмотреть на Острове?
-                                </p>
-                        <div class="questions__circle">
-                            <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
-                            <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
-                        </div>
-                            </div>
-                            <div class="questions__answer-wrapper">
-                                <div class="questions__line"></div>
-                                <p class="questions__answer p-normal">
-                                    Программа вашего тура будет очень насыщенная, мы постарались учесть все интересы
-                                    предыдущих туристов и покажем вам все
-                                    самые культовые места Острова. В один же из немногочисленных свободных дней,
-                                    рекомендуем морскую прогулку. Искупаться в
-                                    прозрачной воде, увидеть китов и дельфинов! Незабываемые впечатления гарантированы!
-                                    Кроме того для любителей шопинга в один из свободных вечеров рекомендуем
-                                    коммерческий центр Siam Mall с множеством
-                                    магазинов и кафешек.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="questions__column visually-hidden">
-                            <div class="questions__question">
-                                <p class="questions__title p-bold">
-                                    Что привезти в качестве сувениров домой?
-                                </p>
-                            <div class="questions__circle">
-                                <picture><source srcset="img/reviews/+.webp" type="image/webp"><img class="questions__plus" src="img/reviews/+.png" alt="+"></picture>
-                                <picture><source srcset="img/reviews/-.webp" type="image/webp"><img class="questions__minus" src="img/reviews/-.png" alt="-"></picture>
-                            </div>
-                            </div>
-                            <div class="questions__answer-wrapper">
-                                <div class="questions__line"></div>
-                                <p class="questions__answer p-normal">
-                                    Мы будем при желании заезжать в сувенирные лавочки, заслуживающие внимания,
-                                    порекомендуем хорошее вино, местный сыр ну и
-                                    конечно, хамон.
-                                </p>
-                            </div>
-                        </div>
+
                         <div class="questions__buttons">
                             <button class="questions__button1 active open-button">Больше ответов</button>
                             <button class="questions__button1 hidden-button">Скрыть</button>
@@ -999,12 +1007,12 @@
                             </h2>
                             <form action="#" id="form" class="main-form__body">
                                 <div class="main-form__inputs">
-                                    <input class="main-form__input input _mainFormReq" type="text"
+                                    <input name="name" class="main-form__input input _mainFormReq" type="text"
                                         placeholder="Ваше имя *" />
-                                    <input class="main-form__input input _mainFormReq" type="text"
+                                    <input name="phone" class="main-form__input input _mainFormReq" type="text"
                                         placeholder="Ваш телефон *" />
-                                    <input class="main-form__input input _mainFormEmail _mainFormReq" type="text"
-                                        placeholder="Ваш  E-mail *" />
+                                    <input name="email" class="main-form__input input _mainFormEmail _mainFormReq"
+                                        type="text" placeholder="Ваш  E-mail *" />
                                 </div>
                                 <p class="main-form__notice notice">
                                     Нажимая на кнопку, вы даете согласие на обработку
@@ -1034,7 +1042,7 @@
             <div class="footer__icon">
                 <a href="https://wa.me/34634122941?text=Привет!"><picture><source srcset="img/footer/whatsapp-logo.webp" type="image/webp"><img src="img/footer/whatsapp-logo.png" alt="whatsapp"></picture></a>
                 <a href="https://t.me/o9e6yupchk"><picture><source srcset="img/footer/telegram-logo.webp" type="image/webp"><img src="img/footer/telegram-logo.png" alt="telegram"></picture></a>
-                <a href ="tel:+34628794011"><img class="footer__phone-icon" src="img/footer/Phone.svg" alt="phone"></a>
+                <a href ="tel:+34634122941"><img class="footer__phone-icon" src="img/footer/Phone.svg" alt="phone"></a>
             </div>
             <div class="footer__gmail">
                 <a class="footer__gmail-link" href="mailto:agalunia71@gmail.com">agalunia71@gmail.com</a>
@@ -1045,7 +1053,7 @@
 </footer>
     </div>
 </body>
-<script src="js/app.min.js?_v=20230322133345"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230322133345"></script>
+<script src="js/app.min.js?_v=20230323171304"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230323171304"></script>
 
 </html>
