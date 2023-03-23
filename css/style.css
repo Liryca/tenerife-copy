@@ -2181,7 +2181,7 @@ body {
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  text-align: center;
+  text-align: left;
 }
 
 .reviews__link2:hover {
@@ -2875,11 +2875,11 @@ body {
     width: 90%;
   }
 
-  .our-paradise .housing__text {
+  .housing__text {
     padding: 40px;
   }
 
-  .our-paradise .housing__gallery {
+  .housing__gallery {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2892,7 +2892,7 @@ body {
             justify-content: center;
   }
 
-  .our-paradise .housing picture {
+  .housing__img-wrapper {
     width: 100%;
   }
 
@@ -3316,6 +3316,10 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 10px;
+  }
+
+  .reviews__link2 {
+    text-align: center;
   }
 
   .title {
