@@ -2078,6 +2078,10 @@ body {
       flex-wrap: wrap;
 }
 
+.reviews__mobile {
+  display: none;
+}
+
 .reviews__column {
   -webkit-box-shadow: 0 0 36px 4px rgba(49, 49, 49, 0.2);
           box-shadow: 0 0 36px 4px rgba(49, 49, 49, 0.2);
@@ -2911,6 +2915,13 @@ body {
 
   .reviews__dekstop {
     display: none;
+  }
+
+  .reviews__mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 0;
   }
 
   .reviews__content {
