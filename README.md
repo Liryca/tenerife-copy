@@ -1,3 +1,3 @@
 # tenerife-copy
 
-https://vercel.com/liryca/tenerife-copy
+https://tenerife-copy.vercel.app/
