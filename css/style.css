@@ -1962,6 +1962,10 @@ body {
   gap: 18px;
 }
 
+.housing__img-wrapper {
+  width: 33%;
+}
+
 .housing__img {
   width: 100%;
   -o-object-fit: cover;
