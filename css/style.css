@@ -1377,6 +1377,7 @@ body {
 
 .programm__img-text {
   color: #ffffff;
+  line-height: 25px;
 }
 
 .programm__gallery-row {
@@ -2876,16 +2877,19 @@ body {
   }
 
   .our-paradise__gallery {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 18px;
   }
 
   .our-paradise__img {
-    width: 90%;
+    width: 100%;
+    height: auto;
   }
 
   .housing__text {
