@@ -1575,8 +1575,12 @@ body {
   gap: 2px;
 }
 
-.our-paradise__img {
+.our-paradise____img-wrap {
   width: 20%;
+}
+
+.our-paradise__img {
+  width: 100%;
 }
 
 .about {
@@ -2887,9 +2891,8 @@ body {
     gap: 18px;
   }
 
-  .our-paradise__img {
+  .our-paradise__img-wrap {
     width: 100%;
-    height: auto;
   }
 
   .housing__text {
