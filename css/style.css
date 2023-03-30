@@ -2108,9 +2108,17 @@ body {
   text-align: center;
 }
 
-.reviews a {
+.reviews__column-p a {
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   font-family: gothampro_bold;
   cursor: pointer;
+  color: #24363d;
+}
+
+.reviews__column-p a:hover {
+  color: #3f9e59;
 }
 
 .reviews__slider {
@@ -2175,20 +2183,21 @@ body {
   text-align: center;
 }
 
-.reviews__link2 {
+.reviews__link2 a {
+  font-family: gothampro_bold;
   color: #3f9e59;
-  font-family: "Gotham Pro";
-  font-size: 18px;
-  font-weight: 400;
-  font-family: gothampro;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.9px;
 }
 
-.reviews__link2:hover {
+.reviews__link2 a:hover {
   color: #ffcc00;
 }
 
