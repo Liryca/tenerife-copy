@@ -2715,6 +2715,7 @@ body {
   overflow: hidden;
   margin: 25px 100px 32px 35px;
   max-height: 0;
+  pointer-events: none;
 }
 
 .questions__answer-wrapper[aria-hidden=true] {
